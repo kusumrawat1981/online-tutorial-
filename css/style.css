@@ -114,7 +114,7 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
 .intro{padding:20px 0;}
 .intro p{color:#7fdbdb;text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);font-size: larger;}
 .html-box a{text-align: left;}
-.tutorial{    background-image: linear-gradient(rgba(0,0,0,1),rgba(255, 255, 255, .5)), url(../img/header-background.jpg);
+.tutorial{    background-image: linear-gradient(rgba(0,0,0,1),rgba(255, 255, 255, .5)), url(../images/header-background.jpg);
     background-size: cover;
     
     position: relative;padding: 20px 0;}
