@@ -15,13 +15,15 @@ html, body{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+
 p{
     text-align: justify;
     box-sizing: border-box;
 }
 header{
     
-    background-image: linear-gradient(rgba(0,0,0,.8),rgba(255, 255, 255, .1)), url(../images/header-background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(255, 255, 255, .1)), url(../img/header-background.jpg);
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -95,7 +97,7 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
 .explore-box h1{color: #0d9aac;font-weight: 200;text-align: center;text-transform: uppercase;padding:30px 0;}
 .footer-section{background-color: #353336;min-height:50px;}
 .footer-section ul.social-links{float: right;}
-.footer-section .copy{float: left;}
+.footer-section .copy{float: left;padding: top 10px;}
 .copy p{color: #f6f6f6;}
 .footer-section li{list-style: none;display: inline-block;padding:10px 8px;}
 .footer-section li a img{width: 20px;height: 20px;border-radius: 5px;}
