@@ -147,9 +147,15 @@ color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;dis
     
     
 }
+.pos{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    height: 300px;
+  }
 .contact-form-enquiry{
-   
-    position: fixed;
+    position:relative ;
+    height: 500px;
   top: 0;
   left: 0;
   width: 100%;
