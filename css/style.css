@@ -32,7 +32,8 @@ header{
 {position: absolute;
 top:50%;
 left:30%;
-text-align: center;}
+text-align: center;
+width:auto;}
 h1{
 font:bold 300% 'work sans', 'Arial';
 color:antiquewhite;
