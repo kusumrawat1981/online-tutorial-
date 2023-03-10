@@ -176,6 +176,13 @@
 	.span_1_of_6 {
 		width: 100%; 
 	}
+	.about-img{
+		float: none;
+	}
+	.about-box h2{
+		float: none;
+		padding: 0;
+	}
 }
 /*  GRID OF SEVEN   ============================================================================= */
 
