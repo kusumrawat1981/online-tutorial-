@@ -147,6 +147,17 @@ color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;dis
     
     
 }
+.contact-form-enquiry{
+    position: fixed;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+  z-index: 999;
+}
 form {
     max-width: 500px;
     margin: 0 auto;
