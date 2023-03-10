@@ -11,21 +11,38 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <form action="submit-form.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-      
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-      
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" required>
-      
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-      
-        <input type="submit" value="Submit">
-      </form>
+     <!-- #Header Start -->
+     <header>
+        <nav>
+            <img src="images/logo-Online Learning.png" alt="Online Learning" class="logo">
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
         
+    </header>
+ <!-- Header Ends-->   
+ <div class="row">
+    <div class="col span_1_of_2">
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        
+            <input type="submit" value="Submit">
+        </form>
+      </div>
+   </div>     
 </body>
 </html>
