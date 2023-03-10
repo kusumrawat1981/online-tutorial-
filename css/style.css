@@ -166,6 +166,7 @@ color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;dis
 }
 form {
     max-width: 500px;
+    height:fit-content;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
