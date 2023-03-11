@@ -107,12 +107,12 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
 
 .html-box{background-image: linear-gradient(to bottom,  rgba(3, 69, 78, 1),rgba(2, 64, 70, 0.5));
     background-size: cover;min-height: 50vh;border-radius: 20px;
-    border: 2px solid #032e34;padding:10px 20px;}
+    border: 2px solid #032e34;padding:10px 20px;margin:20px 0;}
 .lft{float:left;width:42%;}
 .rht{float:right;width:42%;}
 .tutorial-box{z-index: 99;position: relative;padding-top:50px;}
 .tutorial-box p{color:#000;font-weight: bold;}
-.row .jt{text-align: center;width:100vh;margin: 0 auto;}
+.row .jt{text-align: center;width:100vh;margin: 0 auto;clear:both;}
 .tutorial-box h1{color:#00ff99;text-transform: capitalize;text-align: center;}
 .intro{padding:20px 0;}
 .intro p{color:#032e34;text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);}
