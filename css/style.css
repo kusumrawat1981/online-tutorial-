@@ -96,7 +96,7 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
 
 .explore-box{background-color: #fff;margin-right: 0px;padding: 0 20px;min-height: 500px;}
 .explore-box h1{color: #0d9aac;font-weight: 200;text-align: center;text-transform: uppercase;padding:30px 0;}
-.footer-section{background-color: #353336;min-height:50px;}
+.footer-section{background-color: #353336;min-height:50px;clear:both;}
 .footer-section ul.social-links{float: right;padding-top: 10px;}
 .footer-section .copy{float: left;padding-top: 10px;}
 .copy p{color: #f6f6f6;}
@@ -108,8 +108,8 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
 .html-box{background-image: linear-gradient(to bottom,  rgba(3, 69, 78, 1),rgba(2, 64, 70, 0.5));
     background-size: cover;min-height: 50vh;border-radius: 20px;
     border: 2px solid #032e34;padding:10px 20px;}
-.lft{float:left;}
-.rht{float:right;}
+.lft{float:left;width:42%;}
+.rht{float:right;width:42%;}
 .tutorial-box{z-index: 99;position: relative;padding-top:50px;}
 .tutorial-box p{color:#000;font-weight: bold;}
 .row .jt{text-align: center;width:100vh;margin: 0 auto;}
