@@ -25,9 +25,10 @@ header{
     
     background-image: linear-gradient(rgba(0,0,0,.8),rgba(255, 255, 255, .1)), url(../images/header-background.jpg);
     background-size: cover;
-    height: auto;
+    height: 100vh;
     position: relative;
 }
+.header-like{height:auto;}
 .header-box
 {position: absolute;
 top:50%;
@@ -111,7 +112,7 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
 .lft{float:left;width:42%;}
 .rht{float:right;width:42%;}
 .tutorial-box{clear:both}
-.header-like{height:auto;background-image: linear-gradient(rgba(0,0,0,.8),rgba(255, 255, 255, .1)), url(../images/header-background.jpg);background-size: cover;}
+
 .tutorial-box p{color:#000;font-weight: bold;}
 .row .jt{text-align: center;width:100vh;margin: 20px auto;clear:both;}
 .tutorial-box h1{color:#00ff99;text-transform: capitalize;text-align: center;}
