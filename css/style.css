@@ -123,10 +123,8 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
 .intro{padding:20px 0;}
 .intro p{color:aliceblue;text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);}
 .html-box a{text-align: left;}
-.tutorial{    background-image: linear-gradient(rgba(0,0,0,1),rgba(255, 255, 255, .5)), url(../images/header-background.jpg);
-    background-size: cover;height:100vh;
-    
-    position: relative;padding: 20px 0;}
+.tutorial{background-image: linear-gradient(rgba(0,0,0,1),rgba(255, 255, 255, .5)), url(../images/header-background.jpg);
+    background-size: cover;height:auto;min-height:900px;position: relative;padding: 20px 0;}
     .tutorial .logo{width:120px;height: auto;float: left;}
     .tutorial .main-nav{list-style: none;float: right;vertical-align: bottom;margin-top: 60px;}
     .tutorial .main-nav li{display: inline-block;margin-right: 40px;}
