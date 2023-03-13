@@ -119,6 +119,10 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
 .tutorial-box p{color:#000;font-weight: bold;}
 .row .jt{text-align: center;width:100vh;margin: 20px auto;clear:both;}
 .tutorial-box h1{color:#00ff99;text-transform: capitalize;text-align: center;}
+.tutorial-box h2{    color: #00ff99;
+    text-transform: capitalize;
+    text-align: center;
+}
 .intro{padding:20px 0;}
 .intro p{color:aliceblue;text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);}
 .html-box a{text-align: left;}
