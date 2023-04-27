@@ -17,6 +17,11 @@ html, body{
 }
 
 .clr{clear:both;}
+.aboutext{
+    color: #7fdbdb;
+    font-size: large;
+    line-height: normal;
+}
 p{
     text-align: justify;
     box-sizing: border-box;
