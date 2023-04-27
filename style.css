@@ -16,7 +16,11 @@ html, body{
     margin: 0 auto;
 }
 
-
+.aboutext{
+    color: #7fdbdb;
+    font-size: large;
+    line-height: normal;
+}
 p{
     text-align: justify;
     box-sizing: border-box;
