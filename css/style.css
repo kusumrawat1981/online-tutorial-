@@ -16,7 +16,7 @@ html, body{
     margin: 0 auto;
 }
 
-
+.clr{clear:both;}
 p{
     text-align: justify;
     box-sizing: border-box;
