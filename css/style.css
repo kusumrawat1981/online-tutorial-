@@ -16,7 +16,6 @@ html, body{
     margin: 0 auto;
 }
 
-.clr{clear:both;}
 .aboutext{
     color: #7fdbdb;
     font-size: large;
@@ -28,21 +27,16 @@ p{
 }
 header{
     
-    background-image: linear-gradient(rgba(0,0,0,.8),rgba(255, 255, 255, .1)), url(../images/header-background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(255, 255, 255, .1)), url(../img/header-background.jpg);
     background-size: cover;
     height: 100vh;
     position: relative;
 }
-.header-like{    background-image: linear-gradient(rgba(0,0,0,.8),rgba(255, 255, 255, .1)), url(../images/header-background.jpg);
-    background-size: cover;
-    height:auto;
-    position: relative;padding:10px auto;}
 .header-box
 {position: absolute;
 top:50%;
 left:30%;
-text-align: center;
-width:auto;}
+text-align: center;}
 h1{
 font:bold 300% 'work sans', 'Arial';
 color:antiquewhite;
@@ -105,7 +99,7 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
 
 .explore-box{background-color: #fff;margin-right: 0px;padding: 0 20px;min-height: 500px;}
 .explore-box h1{color: #0d9aac;font-weight: 200;text-align: center;text-transform: uppercase;padding:30px 0;}
-.footer-section{background-color: #353336;min-height:50px;clear:both;}
+.footer-section{background-color: #353336;min-height:50px;}
 .footer-section ul.social-links{float: right;padding-top: 10px;}
 .footer-section .copy{float: left;padding-top: 10px;}
 .copy p{color: #f6f6f6;}
@@ -116,20 +110,18 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
 
 .html-box{background-image: linear-gradient(to bottom,  rgba(3, 69, 78, 1),rgba(2, 64, 70, 0.5));
     background-size: cover;min-height: 50vh;border-radius: 20px;
-    border: 2px solid #032e34;padding:10px 20px;margin:20px 0;}
-.lft{float:left;width:42%;}
-.rht{float:right;width:42%;}
-.tutorial-box{clear:both}
-
+    border: 2px solid #032e34;padding:10px 20px;}
+.tutorial-box{z-index: 99;position: relative;padding-top:50px;}
 .tutorial-box p{color:#000;font-weight: bold;}
-.row .jt{text-align: center;width:100vh;margin: 20px auto;clear:both;}
+.jt{text-align: center;width:100vh;margin: 0 auto;}
 .tutorial-box h1{color:#00ff99;text-transform: capitalize;text-align: center;}
-.tutorial-box h2{color: #00ff99;text-transform: capitalize;text-align: center;margin-bottom:12px;}
 .intro{padding:20px 0;}
-.intro p{color:aliceblue;text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);}
+.intro p{color:#7fdbdb;text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);font-size: larger;}
 .html-box a{text-align: left;}
-.tutorial{background-image: linear-gradient(rgba(0,0,0,1),rgba(255, 255, 255, .5)), url(../images/header-background.jpg);
-    background-size: cover;height:auto;min-height:900px;position: relative;padding: 20px 0;}
+.tutorial{    background-image: linear-gradient(rgba(0,0,0,1),rgba(255, 255, 255, .5)), url(../img/header-background.jpg);
+    background-size: cover;
+    
+    position: relative;padding: 20px 0;}
     .tutorial .logo{width:120px;height: auto;float: left;}
     .tutorial .main-nav{list-style: none;float: right;vertical-align: bottom;margin-top: 60px;}
     .tutorial .main-nav li{display: inline-block;margin-right: 40px;}
@@ -159,33 +151,17 @@ color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;dis
     
     
 }
-.design-intro{clear:both;}
-
-.contact-form-enquiry{
-    position:absolute ;
-    height: 500px;
-  top: 20%;
-  left: 0;
-  width: 100%;
-  background-color:transparent;
-  padding: 10px;
-
-  z-index: 999;
-}
-
 form {
     max-width: 500px;
-    height:fit-content;
+    height: fit-content;
     margin: 0 auto;
     padding: 20px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border: 1px solid #ccc;
     background-color: #f5f5f5;
     font-family: Arial, sans-serif;
-    border-radius:20px;
+    border-radius: 20px;
   }
-
-.develop-list{}
+  
   label {
     display: block;
     margin-bottom: 5px;
@@ -225,4 +201,15 @@ form {
     font-size: 14px;
     margin-top: 5px;
   }
-  
+
+.contact-form-enquiry{
+    position:absolute ;
+    height: 500px;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  background-color:transparent;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+  z-index: 999;
+}
