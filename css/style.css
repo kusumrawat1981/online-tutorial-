@@ -177,6 +177,7 @@ color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;dis
     background-repeat: no-repeat;
     padding:0;
     text-align:left; 
+    line-height:180%;
 }
 ul.develop-list-one li a:link,ul.develop-list-two li a:link{text-decoration: none;
 color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;display: inline;}
