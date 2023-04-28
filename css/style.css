@@ -170,12 +170,16 @@ color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;dis
 .tutorial-box ul.develop-list-two{float: right;}
 .tutorial-box li{list-style: none;padding-top: 10px;color: #fff;
 
-    background-image: url("../img/toppng.com-finger-finger-icon-left-right-png-and-psd-finger-pointing-icon-536x317.png");
+    background-image: url("../images/toppng.com-finger-finger-icon-left-right-png-and-psd-finger-pointing-icon-536x317.png");
     background-size: 20px 20px;
     background-position: left;
     background-repeat: no-repeat;
     padding:6px 0;
   }
+ul.develop-list-one li a:link,ul.develop-list-two li a:link{text-decoration: none;
+color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;display: inline;}
+ul.develop-list-one li a:active,ul.develop-list-two li a:active{border-bottom:1px solid #00b6c7;}
+
 
 .tutorial-box li a:link, .tutorial-list li a:visited{ text-decoration: none;
 color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;display: inline;}
