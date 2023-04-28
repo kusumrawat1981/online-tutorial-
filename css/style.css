@@ -175,7 +175,8 @@ color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;dis
     background-position: left;
     background-repeat: no-repeat;
     padding:6px 0;
-  }
+    text-align:left; 
+}
 ul.develop-list-one li a:link,ul.develop-list-two li a:link{text-decoration: none;
 color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;display: inline;}
 ul.develop-list-one li a:active,ul.develop-list-two li a:active{border-bottom:1px solid #00b6c7;}
