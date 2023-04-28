@@ -9,6 +9,7 @@ html, body{
     color: black;
     text-rendering: optimizeLegibility;
     font:300 16px 'work sans','Arial','sans-serif';
+    
     line-height: 150%;
 }
 .row{
@@ -181,7 +182,7 @@ ul.develop-list-one li a:link,ul.develop-list-two li a:link{text-decoration: non
 color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;display: inline;}
 ul.develop-list-one li a:active,ul.develop-list-two li a:active{border-bottom:1px solid #00b6c7;}
 
-
+.develop-list-one li, develop-list-two li{background position:top left; padding:0;}
 .tutorial-box li a:link, .tutorial-list li a:visited{ text-decoration: none;
 color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;display: inline;}
 .tutorial-box li a:hover, .tutorial-list li a:active{
