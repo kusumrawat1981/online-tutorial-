@@ -179,9 +179,9 @@ color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;dis
     text-align:left; 
     line-height:180%;
 }
-ul.develop-list-one li a:link,ul.develop-list-two li a:link{text-decoration: none;
+tutorial-box ul.develop-list-one li a:link,tutorial-box ul.develop-list-two li a:link{text-decoration: none;
 color: #fff;transition: border-bottom, 0.5s ease-in-out;margin: 5px 0 0 25px;display: inline;}
-ul.develop-list-one li a:active,ul.develop-list-two li a:active{border-bottom:1px solid #00b6c7;}
+tutorial-box ul.develop-list-one li a:active,tutorial-box ul.develop-list-two li a:active{border-bottom:1px solid #00b6c7;}
 
 .develop-list-one li, develop-list-two li{background position:top left; padding:0;}
 .tutorial-box li a:link, .tutorial-list li a:visited{ text-decoration: none;
