@@ -124,7 +124,7 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
     background-size: cover;min-height: 50vh;border-radius: 20px;
     border: 2px solid #032e34;padding:10px 20px;}
 .tutorial-box{z-index: 99;position: relative;padding:50px 0;clear:both;}
-.tutorial-box p{color:#000;font-weight: bold;}
+.tutorial-box p{color:#fff;font-weight: bold;}
 .jt{width:100vh;margin: 0 auto;}
 .tutorial-box h1{color:#00ff99;text-transform: capitalize;text-align: center;}
 .intro{padding:20px 0;}
