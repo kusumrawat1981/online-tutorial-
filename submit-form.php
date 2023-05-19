@@ -1,21 +1,24 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  // Retrieve form data
-  $name = $_POST['name'];
-  $email = $_POST['email'];
-  $message = $_POST['message'];
-  
-  // Set up email
-  $to = "learndigitallywithme@gmail.com"; // Replace with your email address
-  $subject = "New Enquiry";
-  $body = "Name: $name\nEmail: $email\nMessage: $message";
-  $headers = "From: $email";
-  
-  // Send email
-  if (mail($to, $subject, $body, $headers)) {
-    echo "Thank you for your enquiry!";
-  } else {
-    echo "Oops! Something went wrong.";
-  }
+require 'PHPMailerAutoload.php';
+$mail = new PHPMailer;
+
+$mail->isSMTP();
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = 587;
+$mail->SMTPAuth = true;
+$mail->Username = 'learndigitallywithme@gmail.com';
+$mail->Password = 'pkbd@2408';
+$mail->SMTPSecure = 'tls';
+$mail->setFrom('your-email@gmail.com', 'Your Name');
+$mail->addAddress('learndigitallywithme@gmail.com', 'Recipient Name');
+$mail->Subject = 'New Enquiry';
+$mail->Body = 'This is a test email from the enquiry form.';
+
+if (!$mail->send()) {
+    echo 'Oops! Something went wrong.';
+    echo 'Error: ' . $mail->ErrorInfo;
+} else {
+    echo 'Thank you for your enquiry!';
 }
+
 ?>
