@@ -27,18 +27,18 @@
  <!-- Header Ends-->   
  <div class="row">
     <div class="col span_2_of_2 contact-form-enquiry">
-<form action="send_email.php" method="POST">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
-  
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-  
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" required></textarea>
-  
-  <input type="submit" value="Submit">
-</form>
+<form method="post" action="send_email.php">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
 
 
       </div>
