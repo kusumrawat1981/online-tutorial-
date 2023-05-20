@@ -1,15 +1,14 @@
 <?php
-use PHPMailer-master\PHPMailer\PHPMailer;
-use PHPMailer-master\PHPMailer\Exception;
-require 'PHPMailer-master/src/PHPMailer.php';
-require 'PHPMailer-master/src/SMTP.php';
-require 'PHPMailer-master/src/Exception.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/autoload.php'; // Path to PHPMailer autoloader
+require 'path/to/PHPMailer/src/PHPMailer.php';
+require 'path/to/PHPMailer/src/SMTP.php';
+require 'path/to/PHPMailer/src/Exception.php';
 
 // Check if the form is submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Retrieve form data
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Get form data
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
@@ -18,30 +17,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail = new PHPMailer(true);
 
     try {
-        // Server settings
+        // Configure SMTP settings
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com'; // Replace with your SMTP server
-        $mail->Port = 587; // Replace with your SMTP port
-        $mail->SMTPAuth = true;
-        $mail->Username = 'learndigitallywithme@gmail.com'; // Replace with your email address
-        $mail->Password = 'pkbd@2408'; // Replace with your email password
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'your@gmail.com'; // Your Gmail email address
+        $mail->Password   = 'your_password'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
+        $mail->Port       = 587;
 
-        // Sender and recipient
-        $mail->setFrom($email, $name);
-        $mail->addAddress('learndigitallywithme@gmail.com'); // Replace with recipient's email address
+        // Set sender and recipient
+        $mail->setFrom('your@gmail.com', 'Your Name'); // Your Gmail email address and your name
+        $mail->addAddress('recipient@example.com'); // Recipient's email address
 
-        // Email content
-        $mail->isHTML(false);
-        $mail->Subject = 'New Enquiry';
-        $mail->Body = "Name: $name\nEmail: $email\nMessage: $message";
+        // Set email subject and body
+        $mail->Subject = 'New message from contact form';
+        $mail->Body    = "Name: $name\n\nEmail: $email\n\nMessage: $message";
 
-        // Send email
+        // Send the email
         $mail->send();
-        echo 'Thank you for your enquiry!';
+
+        // Redirect after successful submission
+        header('Location: thank_you.html');
+        exit();
     } catch (Exception $e) {
-        echo 'Oops! Something went wrong.';
-        echo 'Error: ' . $mail->ErrorInfo;
+        // Something went wrong, display the error message
+        echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
     }
 }
 ?>
