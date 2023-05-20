@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->send();
 
         // Redirect after successful submission
-        header('Location: thank_you.html');
+        echo 'Thank You! Message sent. We will get back to you soon! ',;
         exit();
     } catch (Exception $e) {
         // Something went wrong, display the error message
