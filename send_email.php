@@ -27,8 +27,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Port       = 587;
 
         // Set sender and recipient
-        $mail->setFrom('your@gmail.com', 'Your Name'); // Your Gmail email address and your name
-        $mail->addAddress('recipient@example.com'); // Recipient's email address
+        // $mail->setFrom('your@gmail.com', 'Your Name'); // Your Gmail email address and your name
+       // $mail->addAddress('recipient@example.com'); // Recipient's email address
 
         // Set email subject and body
         $mail->Subject = 'New message from contact form';
@@ -38,7 +38,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->send();
 
         // Redirect after successful submission
-        echo 'Thank You! Message sent. We will get back to you soon! ',;
+header('Location: thank_you.html');
+
         exit();
     } catch (Exception $e) {
         // Something went wrong, display the error message
