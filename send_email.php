@@ -2,9 +2,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'path/to/PHPMailer/src/PHPMailer.php';
-require 'path/to/PHPMailer/src/SMTP.php';
-require 'path/to/PHPMailer/src/Exception.php';
+require '/PHPMailer/src/PHPMailer.php';
+require '/PHPMailer/src/SMTP.php';
+require '/PHPMailer/src/Exception.php';
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -21,8 +21,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'your@gmail.com'; // Your Gmail email address
-        $mail->Password   = 'your_password'; // Your Gmail password
+        $mail->Username   = 'learndigitallywithme@gmail.com'; // Your Gmail email address
+        $mail->Password   = 'pkbd@2408'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
