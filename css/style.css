@@ -71,7 +71,7 @@ h2{
 .btn-full:hover, .btn-full:active{ background-color:#0d9aac;color:#00ff99;}
 
 .btn-empty:link, .btn-empty:visited{background-color: #fff;color:#0d9aac;
-    margin: 20px auto;border: 1px solid #00ff99;display: inline-block;}
+    margin: 20px auto;border: 2px solid #00ff99;display: inline-block;}
 .btn-empty:hover, a.btn-empty:active{     
     background-color:#00ff99;
     color: #00b6c7;
