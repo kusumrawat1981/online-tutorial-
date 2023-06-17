@@ -110,7 +110,7 @@ color: #fff;transition: border-bottom, 0.2s ease-in-out;}
 .about-box:last-child{text-align: right;}
 .explore-section{background-color: #eee;}
 
-.explore-box{background-color: #fff;margin-right: 0px;padding: 0 20px;min-height: 500px;}
+.explore-box{background-color: #fff;margin-right: 0px;padding: 0 20px;min-height: 500px;border-radius:10px;}
 .explore-box h1{color: #0d9aac;font-weight: 200;text-align: center;text-transform: uppercase;padding:30px 0;}
 .footer-section{background-color: #353336;min-height:50px;}
 .footer-section ul.social-links{float: right;padding-top: 10px;}
